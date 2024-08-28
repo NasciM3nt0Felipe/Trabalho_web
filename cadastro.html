@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\cadastro.css">
+    <title>Vizit</title>
+</head>
+<body>
+    <main>
+        <div class="cad" >
+            <div class="logo">
+                <img src="img/Logo1.png" alt="Logotipo" >
+            </div>
+            <div class="form">
+                <form action="#" method="post">
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="campo">
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                    </div>
+                    <div class="campo">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="campo-2">
+                        <input type="tel" name="telfone" id="telfone" placeholder="Telefone" required>
+                    </div>
+                    <div class="campo-2">
+                        <input type="datetime" name="idade" id="idade" pattern="\d{2}/\d{2}/\d{4}" placeholder="Data de nascimento">
+                    </div>
+                    <div class="campo-2">
+                        <select name="genro" id="genro">
+                            <option value="">Gênero...</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="campo-2">
+                        <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+                    </div>
+                    <div class="campo">
+                        <input type="text" name="end" id="end"   placeholder="Endereço" required>
+                    </div>
+                    <div class="campo-2">
+                        <select name="estado" id="estado">
+                            <option value="">Selecione seu estado...</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="campo-2">
+                        <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="CEP 36880-000" required>
+                    </div>
+                    <div class="campo-2">
+                        <input type="password" name="senha" id="senha" required placeholder="Senha">
+                    </div>
+                    <div class="campo-2">
+                        <input type="password" name="confira-senha" id="confira-senha" required placeholder="Confirme a Senha">
+                    </div>
+                </form>
+            </div>
+            <div class="bt-cad">
+              <a href="index.html"><button>CADASTRAR</button></a>  
+            </div>            
+        </div>
+    </main>
+</body>
+</html>

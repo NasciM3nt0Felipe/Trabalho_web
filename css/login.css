@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(/img/back_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    justify-content: flex-end;
+    display: flex;
+    background-color: #ffff;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #0000008f;
+
+}
+
+.ct-moble {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4e5651;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: -5px 10px 10px #00000039;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-user {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+
+.icon-a {
+    margin-right: 55px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 60px;
+    color: #0000007d;
+    font-family: "Inria Sans", sans-serif;
+    text-shadow: 1px 1px 1px rgba(74, 72, 72, 0.584);
+}
+
+.logomarca img {
+    margin-left: 70px;
+    width: 190px;
+    margin-bottom: 40px;
+}
+
+.campos input {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.bt-log button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 40px;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bt-log button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.rec a {
+    color: #4e5651;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.bt-log button:hover {
+    background-color: chocolate;
+}

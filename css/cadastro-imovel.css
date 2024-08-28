@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/back_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cad {
+    box-shadow: 0px 3px 10px #000000ad;
+    background-color: rgba(99, 92, 92, 0.688);
+    width: 500px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.campo input, .campo textarea {
+    background-color: rgb(243, 237, 237);
+    text-align: justify;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.campo textarea {
+    height: 80px;
+    padding-top: 5px;
+    resize: none;
+}
+
+.form {
+    margin-left: 30px;
+}
+
+.campo-2 {
+    display: contents;
+}
+
+.campo-2 input {
+    background-color: rgb(243, 237, 237);
+    width: 195px;
+    height: 25px;
+    text-align: justify;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    margin-right: 2px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.campo-2 select {
+    background-color: rgb(243, 237, 237);
+    appearance: none;
+    color: rgb(139, 134, 134);
+    text-align: justify;
+    width: 200px;
+    height: 28px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    display: inline-block;
+}
+
+.bt-cad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bt-cad button {
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3e3c3cd1;
+}
+
+.bt-cad button:hover {
+    background-color: brown;
+}
+
+.campo label{
+    color: rgb(255, 244, 244);
+}
+
+.campo input{
+    height: 35px;
+    text-align: center;
+}
+
+.bt-cad a button{
+    cursor: pointer;
+    text-decoration: none;
+}
