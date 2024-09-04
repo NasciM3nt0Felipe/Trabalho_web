@@ -15,7 +15,8 @@ body {
 header {
     box-sizing: content-box;
     height: 100vh;
-    background-image: url(/img/back01-bd.jpg);
+    backgroud-color:#000000c0;
+/*     background-image: url(/img/back01-bd.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
